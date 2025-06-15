@@ -30,5 +30,10 @@
     <version>5.8.4</version>
 </dependency>
 
- </dependencies>
+  	<dependency>
+  		<groupId>com.omrbranch.day1</groupId>
+  		<artifactId>FrameWorkClass-Mathiyazhagan</artifactId>
+  		<version>0.0.1-SNAPSHOT</version>
+  	</dependency>
+  </dependencies>
 </project>
