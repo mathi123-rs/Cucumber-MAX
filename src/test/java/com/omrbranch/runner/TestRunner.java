@@ -11,7 +11,7 @@ import io.cucumber.junit.CucumberOptions;
 import io.cucumber.junit.CucumberOptions.SnippetType;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(tags="not @sanity",stepNotifications=false,snippets=SnippetType.CAMELCASE,dryRun=true,publish=true,monochrome=true,plugin={"pretty","json:target\\output.json"},glue="com.omrbranch.stepdefinition",features=("src\\test\\resources\\features"))
+@CucumberOptions(tags="@response",stepNotifications=false,snippets=SnippetType.CAMELCASE,dryRun=true,publish=true,monochrome=true,plugin={"pretty","json:target\\output.json"},glue="com.omrbranch.stepdefinition",features=("src\\test\\resources\\features"))
 public class TestRunner {
 	
 @AfterClass

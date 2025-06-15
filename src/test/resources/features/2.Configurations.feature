@@ -18,3 +18,6 @@ Feature: Verify LMX Configuration Proposal negotiation validity feature
   
   Scenario Outline: Validate Updated data
   Then User Validate the provided date should be retained after updated the validity.
+  @response
+  Scenario Outline: Validate Response data
+  Then User Validate the provided date should be retained after response the validity.

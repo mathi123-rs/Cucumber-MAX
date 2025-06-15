@@ -9,7 +9,6 @@ import io.cucumber.java.en.When;
 
 public class Configurations {
 
-
 	@Given("Click Configurations tab and click proposal icon")
 	public void click_configurations_tab_and_click_proposal_icon() {
 	 
@@ -44,6 +43,12 @@ public class Configurations {
 	public void user_validate_the_data_should_be_change_after_updated_the_validity() throws InterruptedException {
 
 	}
+
+
+	@Then("User Validate the provided date should be retained after response the validity.")
+	public void userValidateTheProvidedDateShouldBeRetainedAfterResponseTheValidity() {
+	}
+
 
 
 }
