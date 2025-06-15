@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="9.219" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="verifying omrbranch login module" name="Login with vaild credentials - #1.1" time="9.036">
+<system-out><![CDATA[
+Given user is on the omrbranch page.........................................passed
+When user enters "mathimmrs123@gmail.com" and "Mathi123@"...................passed
+And user click the login button.............................................passed
+Then user should verify after login success message.........................passed
+]]></system-out>
+</testcase>
+</testsuite>
